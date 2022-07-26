@@ -196,6 +196,6 @@ if __name__ == "__main__":
     password2 = sys.argv[4]
     try:
         main(username, password)
-        main(username2, passwords)
+        main(username2, password2)
     except Exception:
         exit(1)
