@@ -192,7 +192,10 @@ def main(username, password):
 if __name__ == "__main__":
     username = sys.argv[1]
     password = sys.argv[2]
+    username2 = sys.argv[3]
+    password2 = sys.argv[4]
     try:
         main(username, password)
+        main(username2, passwords)
     except Exception:
         exit(1)
